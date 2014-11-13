@@ -13,9 +13,11 @@ import android.view.ViewGroup;
 import android.os.Build;
 import android.widget.Button;
 
+
 import com.example.kaaatfeliciano.myapplication.R;
 
-public class MyActivity5 extends ActionBarActivity {
+
+public class MyActivity extends ActionBarActivity {
 
     Button button;
     @Override
@@ -24,53 +26,63 @@ public class MyActivity5 extends ActionBarActivity {
         setContentView(R.layout.activity_my);
 
 
-        button= (Button) findViewById(R.id.IS); //<< initialize here
+        button= (Button) findViewById(R.id.btn1); //<< initialize here
         // set OnClickListener for Button here
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(MyActivity5.this, MyActivity6.class));
+                startActivity(new Intent(MyActivity.this, MyActivity2.class));
             }
         });
 
-        button= (Button) findViewById(R.id.IT); //<< initialize here
+        button= (Button) findViewById(R.id.btn2); //<< initialize here
         // set OnClickListener for Button here
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(MyActivity5.this, MyActivity7.class));
+                startActivity(new Intent(MyActivity.this, MyActivity3.class));
             }
         });
 
-        button= (Button) findViewById(R.id.CS); //<< initialize here
+        button= (Button) findViewById(R.id.btn3); //<< initialize here
         // set OnClickListener for Button here
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(MyActivity5.this, MyActivity8.class));
+                startActivity(new Intent(MyActivity.this, MyActivity4.class));
             }
         });
 
-
+        button= (Button) findViewById(R.id.btn4); //<< initialize here
+        // set OnClickListener for Button here
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MyActivity.this, MyActivity5.class));
+            }
+        });
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.my_activity5, menu);
+        getMenuInflater().inflate(R.menu.my, menu);
         return true;
     }
 
-    public void MyActivity6(View view){
-        Intent OpenMyActivity5 = new Intent(MyActivity5.this, MyActivity6.class);
-        startActivity(OpenMyActivity5);
+    public void MyActivity2(View view){
+        Intent OpenMyActivity = new Intent(MyActivity.this, MyActivity2.class);
+        startActivity(OpenMyActivity);
     }
 
-    public void MyActivity7(View view){
-        Intent OpenMyActivity5 = new Intent(MyActivity5.this, MyActivity7.class);
-        startActivity(OpenMyActivity5);
+    public void MyActivity3(View view){
+        Intent OpenMyActivity = new Intent(MyActivity.this, MyActivity3.class);
+        startActivity(OpenMyActivity);
     }
 
-    public void MyActivity8(View view){
-        Intent OpenMyActivity5 = new Intent(MyActivity5.this, MyActivity8.class);
-        startActivity(OpenMyActivity5);
+    public void MyActivity4(View view){
+        Intent OpenMyActivity = new Intent(MyActivity.this, MyActivity4.class);
+        startActivity(OpenMyActivity);
+    }
+    public void MyActivity5(View view){
+        Intent OpenMyActivity = new Intent(MyActivity.this, MyActivity5.class);
+        startActivity(OpenMyActivity);
     }
 
     @Override

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> UST Publishing House</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_activity2"> UST Publishing House</string>
+    <string name="title_activity_my_activity3"> UST Publishing House</string>
+    <string name="title_activity_my_activity4"> UST Publishing House</string>
+    <string name="title_activity_my_activity5"> UST Publishing House</string>
+    <string name="title_activity_my_activity6"> UST Publishing House</string>
+    <string name="title_activity_my_activity7"> UST Publishing House</string>
+    <string name="title_activity_my_activity8"> UST Publishing House</string>
+
+    <string name="administrators">        The Pontifical and Royal
+        UNIVERSITY OF SANTO TOMAS
+        The Catholic University of the Philippines
+        España, Manila
+
+        VERY REV. FR. BRUNO CADORÉ, O.P Chancellor
+        REV. FR. GERARD FRANCISCO P. TIMONER, III, O.P.
+        Vice-Chancellor VERY REV. FR. HERMINIO V. DAGOHOY, O.P.
+        Rector  REV. FR. RICHARD G. ANG, O.P.
+        Vice-Rector  REV. FR. FILEMON I. DELA CRUZ, JR., O.P.
+        Vice-Rector for Religious Affairs REV. FR. MANUEL F. ROUX, O.P.
+        Vice-Rector for Finance/Treasurer  PROF. CLARITA D.L. CARILLO, Ph.D.
+        Vice-Rector for Academic Affairs  REV. FR. WINSTON F. CABADING, O.P. Secretary-General</string>
+
+</resources>

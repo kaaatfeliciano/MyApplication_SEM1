@@ -6,11 +6,54 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/action_settings"
+    android:background="#ffffe506"
     tools:context="com.example.kaaatfeliciano.myapplication.MyActivity5">
 
-    <TextView
-        android:text="@string/hello_world"
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Information System"
+        android:id="@+id/IS"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/IS"
+        android:layout_alignEnd="@+id/IS"
+        android:layout_alignParentStart="true"
+        android:enabled="true"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="List of Available Courses"
+        android:id="@+id/LofCourses"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Information Technology"
+        android:id="@+id/IT"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/IT"
+        android:layout_alignEnd="@+id/IT"
+        android:layout_alignParentStart="true"
+        android:enabled="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+        android:id="@+id/CS"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/CS"
+        android:layout_alignEnd="@+id/CS"
+        android:layout_alignParentStart="true"
+        android:enabled="true"
+        android:clickable="true" />
 
 </RelativeLayout>

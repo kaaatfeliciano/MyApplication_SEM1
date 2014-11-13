@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/action_settings"
+    android:background="#ffffe506"
+    tools:context="com.example.kaaatfeliciano.myapplication.MyActivity8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Computer Science"
+        android:id="@+id/csdetail"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intro to Computer Based Control Systems"
+        android:id="@+id/bk17"
+        android:layout_below="@+id/csdetail"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        android:clickable="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Systems Protection, Power Quality - and Substation Automation"
+        android:id="@+id/bk18"
+        android:layout_below="@+id/bk17"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Computers and Digital Signal Processing"
+        android:id="@+id/bk19"
+        android:layout_below="@+id/bk18"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web 2.0 and Social Media for Business"
+        android:id="@+id/bk20"
+        android:layout_below="@+id/bk19"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Thinking and Mobile Teaching - Communicating, Collaborating and Constructing in an Access Age"
+        android:id="@+id/bk021"
+        android:layout_below="@+id/bk20"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D Video Processing and Transmission Fundamentals"
+        android:id="@+id/bk022"
+        android:layout_below="@+id/bk021"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:enabled="true" />
+
+
+</RelativeLayout>

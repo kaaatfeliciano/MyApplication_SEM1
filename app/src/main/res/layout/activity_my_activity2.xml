@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/action_settings"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kaaatfeliciano.myapplication.MyActivity2"
+    android:background="#ffffe506">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The University of Santo Tomas Publishing House (USTPH) was established in 1996 through the merger of the Santo Tomas University Press (STUP) and the UST Printing Office (USTPO). The Publishing House evolved from the UST Press, which was founded in 1593 by Fr. Francisco de San Jose, O.P. As such, it is the oldest continuing press in the world today, next to Cambridge University in England."
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As an academic publishing house, the USTPH has released numerous literary and scholarly titles as well as textbooks.  It has won the highly-coveted honor of “Publisher of the Year” from the Manila Critics Circle (MCC) twice in a row, 2003 and 2004. In 2008, the MMC entered into an agreement with the National Book Development Board (NBDB) to institutionalize the National Book Awards. The USTPH was named Publisher of the Year by the MCC/NBDB in 2011.  It is a member in good standing of the Philippine Association of Scholarly and Academic Publishers, Inc. (PASAP), the Book Development Association of the Philippines (BDAP), and the Filipinas Copyright Licensing Society, Inc. (FILCOLS)."
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HISTORY"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#ff000000"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
